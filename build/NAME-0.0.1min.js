@@ -1,0 +1,1 @@
+(function(){var e;e=function(){function e(e){this.url=e}return e.prototype.decode=function(){},e.prototype.getParamsString=function(){return this.url.split("?")[1]},e}()}).call(this),define("urlParams",function(){});

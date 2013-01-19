@@ -1,0 +1,19 @@
+{
+  "name": "NAME",
+  "description": "DESC",
+  "keywords": [],
+  "version": "0.0.1",
+  "repositories": [
+       {
+           "type": "git",
+           "url": "git://github.com/abarre/NAME.git"
+       }
+   ],
+  "devDependencies":{
+    "requirejs": "latest",
+    "coffee-script": "latest",
+    "docco": "latest",
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
