@@ -1,19 +1,20 @@
 {
-  "name": "NAME",
-  "description": "DESC",
-  "keywords": [],
+  "name": "rickshaw-graphite",
+  "description": "rickshaw extension for graphite",
+  "keywords": ["rickshaw", "graphite", "monitoring"],
   "version": "0.0.1",
   "repositories": [
        {
            "type": "git",
-           "url": "git://github.com/abarre/NAME.git"
+           "url": "git://github.com/abarre/rickshaw-graphite.git"
        }
    ],
   "devDependencies":{
-    "requirejs": "latest",
-    "coffee-script": "latest",
     "docco": "latest",
     "mocha": "latest",
     "chai": "latest"
+  },
+  "scripts": {
+    "test": "open test/spec_runner.html"
   }
 }

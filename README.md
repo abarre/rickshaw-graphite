@@ -1,28 +1,22 @@
 # TITLE
 
-##INSTALL
+## INSTALL
 
 ```
-sudo npm install -g coffee-script
-
-sudo easy_install pygments
-sudo npm install -g docco
-
 npm install
 ```
 
-#USAGE
+## USAGE
 
-```
-cake test -> launch mocha in the browser
-cake docs -> create a doc generate by docco
-cake build -> build the project in the build folder
-```
 
-watch the src and test folder
+*For testing*
 ```
-coffee --watch --compile --output src/js src/coffee;coffee --watch --compile --output test/js test/coffee
-``
+npm test -> launch mocha in the browser
+```
+*Documentation*
+```
+./node_modules/.bin/docco src/*.js
+```
 
 ## License
 
